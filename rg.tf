@@ -11,7 +11,7 @@ resource "azapi_resource" "cosmosTable" {
         id = "id"
       }
       options = {
-        throughput = "throughput"
+        throughput = "put"
       }
     }
   }
